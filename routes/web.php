@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contact', function(){
+	return view('contact');
+});
+Route::get('/tours', function(){
+	return view('tours');
+});
+Route::get('/news', function(){
+	return view('news');
+});
+Route::get('/gallery', function(){
+	return view('gallery');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
