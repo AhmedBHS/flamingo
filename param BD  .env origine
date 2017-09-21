@@ -1,0 +1,15 @@
+localhost:
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=flamingo
+DB_USERNAME=root
+DB_PASSWORD=
+
+hebergé:
+DB_CONNECTION=mysql
+DB_HOST=nachditcgxnachd7.mysql.db
+DB_PORT=3306
+DB_DATABASE=nachditcgxnachd7
+DB_USERNAME=nachditcgxnachd7
+DB_PASSWORD=Nachdit2017
